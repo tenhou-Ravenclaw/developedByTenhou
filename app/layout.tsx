@@ -21,13 +21,22 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Tenhou Web Portal",
     description: "Tenhouが開発したWebサイト一覧 - ポータルサイト",
-    images: ['/icon/tenhouPortfolioIcon.svg'],
+    images: [
+      {
+        url: '/og-image.png',
+        width: 800,
+        height: 600,
+        alt: 'Tenhou Web Portal',
+        type: 'image/png',
+      }
+    ],
+    type: 'website',
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: "Tenhou Web Portal",
     description: "Tenhouが開発したWebサイト一覧 - ポータルサイト",
-    images: ['/icon/tenhouPortfolioIcon.svg'],
+    images: ['/og-image.png'],
   },
 };
 
