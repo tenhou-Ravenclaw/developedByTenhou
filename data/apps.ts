@@ -16,7 +16,7 @@ export const apps: AppInfo[] = [
     {
         title: "講義に役立つWebアプリ",
         description: "講義に役立つWebアプリをまとめたサイトです。",
-        url: "https://comprehensionchecker.ten-hou.com/",
+        url: "https://comprehensionchecker.ten-hou.com",
         image: "/icon/comprehensionCheckerIcon.svg",
     },
     {
