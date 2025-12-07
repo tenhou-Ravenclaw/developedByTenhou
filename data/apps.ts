@@ -13,5 +13,16 @@ export const apps: AppInfo[] = [
         url: "https://portfolio.ten-hou.com",
         image: "/icon/tenhouPortfolioIcon.svg", // 仮画像
     },
-    // 今後ここに追加
+    {
+        title: "講義に役立つWebアプリ",
+        description: "講義に役立つWebアプリをまとめたサイトです。",
+        url: "https://comprehensionchecker.ten-hou.com",
+        image: "/icon/comprehensionCheckerIcon.svg",
+    },
+    {
+        title: "JavaからUMLet対応コードのコンバーター",
+        description: "JavaのソースコードからUMLet形式のクラス図コードを生成するツールです。",
+        url: "https://convert-java-to-umlet.ten-hou.com/",
+        image: "/icon/javaToUmletConverterIcon.svg", // 仮画像
+    }
 ];
