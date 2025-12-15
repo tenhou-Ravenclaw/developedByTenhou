@@ -24,5 +24,11 @@ export const apps: AppInfo[] = [
         description: "JavaのソースコードからUMLet形式のクラス図コードを生成するツールです。",
         url: "https://convert-java-to-umlet.ten-hou.com/",
         image: "/icon/javaToUmletConverterIcon.svg", // 仮画像
-    }
+    },
+    {
+        title: "タスク分割アプリ",
+        description: "タスクを頭で抱え込まずに優先順位をつけて整理できるアプリです。",
+        url: "https://task.ten-hou.com/",
+        image: "/icon/webTechLearningSupportIcon.svg", // 仮画像
+    },
 ];
